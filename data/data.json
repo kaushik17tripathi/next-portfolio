@@ -1,0 +1,101 @@
+{
+  "data": {
+    "data": [
+      {
+        "id": 1,
+        "title": "BookMyStay",
+        "content": "BookMyStay is a hotel booking website that allows users to make reservations to cabins. The website is built using NextJS, TailwindCSS and Supabase (for storing the cabins data and booking data).",
+        "imgurl": "/projectSS/bookmystay.png",
+        "githubLink": "https://github.com/kaushik17tripathi/the-wild-oasis-website",
+        "deployedLink": "https://book-my-stay-theta.vercel.app/",
+        "tech": [
+          {
+            "tech": "/skillsLogos/next-js.png"
+          },
+          {
+            "tech": "/skillsLogos/tailwind.png"
+          },
+          {
+            "tech": "/skillsLogos/js.png"
+          },
+          {
+            "tech": "/skillsLogos/supabase.png"
+          },
+          {
+            "tech": "/skillsLogos/next-auth.png"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "The Sunset Retreats",
+        "content": "The Sunset Retreats is a hotel management website that allows hotel staff to keep track of bookings, sales, checkins and occupancy rates. The website is built using ReactJS, TailwindCSS, Supabase (for storing all the data)",
+        "imgurl": "/projectSS/thesunsetretreats.png",
+        "githubLink": "https://github.com/Nick-h4ck3r/airstay",
+        "deployedLink": "https://the-sunset-retreats.netlify.app/",
+        "tech": [
+          {
+            "tech": "/skillsLogos/react.png"
+          },
+          {
+            "tech": "/skillsLogos/js.png"
+          },
+          {
+            "tech": "/skillsLogos/tailwind.png"
+          },
+          {
+            "tech": "/skillsLogos/supabase.png"
+          },
+          {
+            "tech": "/skillsLogos/react-router.png"
+          },
+          {
+            "tech": "/skillsLogos/react-query.png"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "ProjeXpert",
+        "content": "ProjeXpert is a Project Managment website that allows users to manage projects, tasks, and communicate with other team members. The website is built using ReactJs, CSS and Firebase (for storing all the data).",
+        "imgurl": "/projectSS/projeXpert.png",
+        "githubLink": "https://github.com/Nick-h4ck3r/portfolio-nextjs-latest",
+        "deployedLink": "https://projexpert.netlify.app/login",
+        "tech": [
+          {
+            "tech": "/skillsLogos/react.png"
+          },
+          {
+            "tech": "/skillsLogos/js.png"
+          },
+          {
+            "tech": "/skillsLogos/css.png"
+          },
+          {
+            "tech": "/skillsLogos/firebase.png"
+          },
+          {
+            "tech": "/skillsLogos/react-router.png"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Quizzoc",
+        "content": "Quizzoc is a quiz website that allows users to take react quiz and view their scores. The website is built using ReactJS, Typescript, TailwindCSS, and Sanity.io (for storing all the data).",
+        "imgurl": "/projectSS/react-quiz.png",
+        "githubLink": "https://github.com/kaushik17tripathi/react-quiz",
+        "deployedLink": "https://quizzoc.netlify.app/",
+        "tech": [
+          {
+            "tech": "/skillsLogos/react.png"
+          },
+          {
+            "tech": "/skillsLogos/tailwind.png"
+          }
+        ]
+      }
+    
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "experience": [
+    {
+      "clogo": "/companyLogo/github-white.png",
+      "title": "Open-source contributor",
+      "company": "GitHub",
+      "point1": "Participated in Hacktoberfest and started with open source contributions",
+      "point2": "Contributed to various open source projects like foss-events 2.0,etc.",
+      "startDate": "Oct, 2023",
+      "endDate": "Nov, 2023"
+    }
+   
+  ]
+}
