@@ -2,40 +2,25 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export const metadata = {
   charset: "utf-8",
-  title: "Nikhil Kadam - Portfolio",
+  title: "Kaushik Tripathi - Portfolio",
   description:
-    "A website about Nikhil Kadam, full stack developer, open source enthusiast, and tech creator.",
+    "A website about Kaushik Tripathi, full stack developer, open source enthusiast, and tech creator.",
   keywords:
-    "Nikhil Kadam, Full Stack Developer, Open Source, Tech Creator, Nashik, Maharashtra, India",
-  author: "Nikhil Kadam",
+    "Kaushik Tripathi, Full Stack Developer, Open Source, Tech Creator, Nashik, Maharashtra, India",
+  author: "Kaushik Tripathi",
   openGraph: {
-    url: "https://raw.githubusercontent.com/Nick-h4ck3r/portfolio-nextjs-latest/master/public/screenshots/portfolio/heroDemo.png",
-    title: "Nikhil Kadam - Portfolio",
+    title: "Kaushik Tripathi - Portfolio",
     description:
-      "A website about Nikhil Kadam, full stack developer, open source enthusiast, and tech creator.",
-    siteName: "Nikhil Kadam - Portfolio",
-    images: [
-      {
-        url: "https://raw.githubusercontent.com/Nick-h4ck3r/portfolio-nextjs-latest/master/public/screenshots/portfolio/heroDemo.png",
-        width: 800,
-        height: 600,
-      },
-    ],
+      "A website about Kaushik Tripathi, full stack developer, open source enthusiast, and tech creator.",
+    siteName: "Kaushik Tripathi - Portfolio",
     locale: "en-US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nikhil Kadam - Portfolio",
+    title: "Kaushik Tripathi - Portfolio",
     description:
-      "A website about Nikhil Kadam, full stack developer, open source enthusiast, and tech creator.",
-    images: [
-      {
-        url: "https://raw.githubusercontent.com/Nick-h4ck3r/portfolio-nextjs-latest/master/public/screenshots/portfolio/heroDemo.png",
-        width: 800,
-        height: 600,
-      },
-    ],
+      "A website about Kaushik Tripathi, full stack developer, open source enthusiast, and tech creator.",
   },
 };
 
@@ -64,20 +49,12 @@ export default function Document() {
           content={metadata.author}
         />
         <meta
-          property="og:url"
-          content={metadata.openGraph.url}
-        />
-        <meta
           property="og:title"
           content={metadata.openGraph.title}
         />
         <meta
           property="og:description"
           content={metadata.openGraph.description}
-        />
-        <meta
-          property="og:image"
-          content={metadata.openGraph.images[0].url}
         />
         <meta
           property="og:type"
@@ -98,10 +75,6 @@ export default function Document() {
         <meta
           name="twitter:description"
           content={metadata.twitter.description}
-        />
-        <meta
-          name="twitter:image"
-          content={metadata.twitter.images[0].url}
         />
       </Head>
       <body>
